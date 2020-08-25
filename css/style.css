@@ -1,0 +1,99 @@
+body {
+    margin: auto;
+    font-family: Arial, serif;
+}
+
+.header {
+    height: 705px;
+    width: 1244px;
+    margin: auto;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #458FF6;
+    border-radius: 50%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.nav-logo {
+    display: flex;
+    /*background-color: bisque;*/
+    margin-left: 190px;
+}
+
+.logo-text {
+    margin: auto auto auto 10px;
+    font-weight: bold;
+}
+
+.bar {
+    display: flex;
+    /*background-color: antiquewhite;*/
+    margin-right: 190px;
+}
+
+.text-bar {
+    margin: auto 10px auto auto;
+    color: darkgray;
+}
+
+.text-bar:hover {
+    color: black;
+}
+
+.img{
+    width: 586px;
+    height: 692px;
+    margin: auto;
+}
+
+.header-text{
+    display: flex;
+}
+
+.info{
+    width: 445px;
+    height: 332px;
+    /*background-color: darkgray;*/
+    margin: auto;
+}
+
+.dot{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.h-text{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    margin: auto;
+}
+
+.text-info{
+    font-weight: 300;
+    margin-top: 24px;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.button-header{
+    border-radius: 55px;
+    background: #458FF6;
+    color: white;
+    border: none;
+    margin-top: 45px;
+    width: 150px;
+    height: 49px;;
+}
