@@ -58,6 +58,7 @@ body {
 
 .bar {
     display: flex;
+    /*background-color: #458FF6;*/
 }
 
 .text-bar {
@@ -79,8 +80,7 @@ body {
 }
 
 .img {
-    width: 586px;
-    height: 692px;
+
     margin: auto;
 }
 
@@ -97,6 +97,7 @@ body {
 
 .header-text {
     display: flex;
+    margin-top: 50px;
 }
 
 .info {
@@ -155,6 +156,7 @@ body {
 .service-header-info {
     width: 952px;
     height: 177px;
+    /*background-color: #67C3F3;*/
     margin: auto auto 80px;
 }
 
@@ -167,6 +169,13 @@ body {
     border-radius: 5px;
     background: #000000;
 }
+
+.provider-header-text {
+    font-size: 28px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
 
 .provider-decor {
     width: 56px;
@@ -247,8 +256,8 @@ body {
 }
 
 .card-logo {
-    width: 92px;
-    height: 90px;
+    /*width: 92px;*/
+    /*height: 90px;*/
     margin-top: 54px;
     margin-left: 37px;
 }
@@ -290,11 +299,6 @@ body {
     margin: auto;
 }
 
-.provider-header-text {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 56px;
-}
 
 .provider-text-info {
     font-weight: 300;
@@ -520,19 +524,232 @@ h2 {
     margin-right: 166px;
 }
 
-.img-footer{
+.img-footer {
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-.img-footer{
+.img-footer {
     position: absolute;
     bottom: 0;
     right: 0;
 }
 
-.img-footer2{
-z-index: -1;
+.img-footer2 {
+    z-index: -1;
     margin-top: -70px;
 }
+
+
+@media only screen and (max-width: 667px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .nav-logo {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+
+    .logo {
+        margin-bottom: 12px;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        padding-top: 20px;
+        align-items: center;
+        justify-content: unset;
+    }
+
+    .bar {
+        display: unset;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .text-bar {
+        margin: auto auto 12px;
+    }
+
+    .header-text {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+
+    .info {
+        width: 100%;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .head-info-text {
+        margin: auto;
+        font-size: 28px;
+        line-height: 26px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+    .button-header {
+        margin-top: 20px;
+    }
+
+    .head-info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img {
+        margin-left: 9%;
+    }
+
+    .dark_block {
+        width: 90%;
+    }
+
+
+    .service-header {
+        margin: auto;
+        font-size: 28px;
+        line-height: 26px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .service-header-info {
+        width: 100%;
+        height: 50%;
+        margin-bottom: 20px;
+    }
+
+
+    .service-header {
+        font-size: 28px;
+        line-height: 26px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .service-text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .decor {
+        margin-bottom: 10px;
+    }
+
+    .services-cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: auto;
+        margin: 20px 20px 0px 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .img-phone {
+        width: 50%;
+
+    }
+
+    .services-cards-button {
+        margin-bottom: 54px;
+    }
+
+    .providers-img {
+        width: 90%;
+    }
+
+
+    .providers {
+        flex-direction: column;
+    }
+
+    .provider-info {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        margin: 20px auto auto;
+    }
+
+    .provider-decor {
+        width: 56px;
+        height: 2px;
+        margin: auto auto 26px;
+        left: 772px;
+        top: 1049px;
+        border-radius: 5px;
+        background: #000000;
+    }
+
+    .provider-text-info {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .provider-header-text {
+        font-size: 28px;
+        line-height: 26px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .download {
+
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+
+    .download-info {
+        width: 100%;
+    }
+
+    .download-button {
+        text-align: center;
+    }
+
+    #provider-img {
+        width: 100%;
+    }
+
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card-logo{
+        margin-left: 0;
+    }
+    .card-header{
+        margin-left: 0;
+    }
+
+    .card-text{
+        margin-left: 0;
+    }
+}
+
+
+
