@@ -104,6 +104,7 @@ body {
     width: 445px;
     height: 332px;
     margin-top: 187px;
+
 }
 
 .header-img {
@@ -603,6 +604,7 @@ h2 {
 
     .button-header {
         margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .head-info {
@@ -732,21 +734,165 @@ h2 {
         width: 100%;
     }
 
-
     .reviews {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+
+        height: fit-content;
+    }
+
+    .reviews-customer {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    .card-logo{
-        margin-left: 0;
-    }
-    .card-header{
+    .card-logo {
         margin-left: 0;
     }
 
-    .card-text{
+    .card-header {
+        margin-left: 0;
+    }
+
+    .card-text {
+        margin-left: 0;
+    }
+
+    .reviews-customer-info {
+        flex-direction: column;
+    }
+
+    .reviews-customer-info {
+        margin-left: 0;
+    }
+
+    .reviews-customer-icon-phone {
+        margin: auto;
+    }
+
+    .reviews-customer-text {
+        margin: auto;
+        text-align: center;
+    }
+
+    .customer-comment {
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-size: 19px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.9);
+        mix-blend-mode: normal;
+        margin: 0px 10px 30px;
+    }
+
+    .reviews-header {
+        padding-top: 34px;
+    }
+
+    .block-card {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .check-card {
+        margin-right: 0;
+        margin-bottom: 20px;
+        height: fit-content;
+        margin-right: 0;
+    }
+
+    .check-cards-header {
+        margin-top: 30px;
+        font-size: 26px;
+    }
+
+    .info {
+        height: fit-content;
+    }
+
+    .link {
+        margin-bottom: 20px;
+    }
+
+    .services-cards-button {
+        margin: auto auto 20px;
+    }
+
+
+    .footer {
+        margin-top: 30px;
+        width: 100%;
+        height: fit-content;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .footer-more-info {
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .footer-info-company {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .footer-info-region {
+        margin-right: 0;
+    }
+
+    .footer-info-help {
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .footer-nav-logo {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+
+    .footer-logo-text {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .footer-info {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .copywriting {
+        text-align: center;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    .customer-name {
+        margin-left: 0;
+    }
+
+    .customer-founder {
+
         margin-left: 0;
     }
 }
