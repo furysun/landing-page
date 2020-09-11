@@ -548,6 +548,14 @@ h2 {
         overflow-x: hidden;
     }
 
+    /*.header-img{*/
+    /*    visibility: hidden;*/
+    /*}*/
+
+    .phone-version{
+        visibility: hidden;
+    }
+
     .nav-logo {
         flex-direction: column;
         text-align: center;
@@ -724,6 +732,7 @@ h2 {
 
     .download-info {
         width: 100%;
+        height: fit-content;
     }
 
     .download-button {
@@ -732,6 +741,8 @@ h2 {
 
     #provider-img {
         width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .reviews {
@@ -822,9 +833,8 @@ h2 {
     }
 
     .services-cards-button {
-        margin: auto auto 20px;
+        margin: 30px auto 40px;
     }
-
 
     .footer {
         margin-top: 30px;
